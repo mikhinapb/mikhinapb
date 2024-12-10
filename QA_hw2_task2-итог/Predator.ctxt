@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Predator
+comment1.params=breed\ name\ cost\ character\ birthDate
+comment1.target=Predator(java.lang.String,\ java.lang.String,\ double,\ java.lang.String,\ java.time.LocalDate)
+comment2.params=obj
+comment2.target=boolean\ equals(java.lang.Object)
+numComments=3

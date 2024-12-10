@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\n\ \u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\ Animal\n
+comment1.params=
+comment1.target=java.lang.String\ getBreed()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=double\ getCost()
+comment4.params=
+comment4.target=java.lang.String\ getCharacter()
+numComments=5
