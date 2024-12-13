@@ -20,7 +20,7 @@ public class CreateAnimalService {
         Random random = new Random(); // Для генерации случайных данных
 
         int count = 0;
-        while (count < 10) { // Цикл для создания 10 животных
+        do { // замена while на do
             String breed = "Breed" + random.nextInt(100); // Генерируем случайную породу
             String name = "Name" + random.nextInt(100); // Генерируем случайное имя
             double cost = random.nextDouble() * 1000; // Генерируем случайную стоимость
@@ -38,7 +38,7 @@ public class CreateAnimalService {
             animals.add(animal); // Добавляем животное в список
             System.out.println("Создано животное: " + animal.getName()); // Выводим информацию о новом животном
             count++; // Увеличиваем счетчик
-        }
+        } while (count < 10); // Условие для завершения цикла
     }
     
     // Метод для получения всех животных
